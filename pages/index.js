@@ -1,6 +1,7 @@
 import React, { Component, useState } from "react";
 import ReactPlayer from "react-player";
 import styles from "../styles/Home.module.css";
+import sample from "lodash.sample"
 
 export default function Home() {
   const mtlinks = [
@@ -8,9 +9,8 @@ export default function Home() {
     "https://cornell.ca1.qualtrics.com/jfe/form/SV_6r1ZnzT4Cubpt3M",
     "https://cornell.ca1.qualtrics.com/jfe/form/SV_9H3PLkC3pth7YWi",
   ];
-  const idx = Math.floor(Math.random() * mtlinks.length);
-  const url = mtlinks[idx];
-  console.log(idx, url);
+  const url = sample(mtlinks);
+  console.log(url);
   return (
     <div className={styles.container}>
       <h1>
