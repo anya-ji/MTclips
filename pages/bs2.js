@@ -7,7 +7,7 @@ export default function Home() {
     <div className={styles.container}>
       <ReactPlayer
         className="react-player"
-        url="/video/dog2.mp4"
+        url="/video/dogs2.mp4"
         controls={false}
         playing
       />
