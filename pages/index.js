@@ -1,11 +1,11 @@
 import React, { Component, useState } from "react";
 import ReactPlayer from "react-player";
 import styles from "../styles/Home.module.css";
-import sample from "lodash.sample"
+import sample from "lodash.sample";
 
 export default function Home() {
   const mtlinks = [
-    "https://cornell.ca1.qualtrics.com/jfe/form/SV_2gB4OTc24so95SC",
+    // "https://cornell.ca1.qualtrics.com/jfe/form/SV_2gB4OTc24so95SC",
     "https://cornell.ca1.qualtrics.com/jfe/form/SV_6r1ZnzT4Cubpt3M",
     "https://cornell.ca1.qualtrics.com/jfe/form/SV_9H3PLkC3pth7YWi",
   ];
